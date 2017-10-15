@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  azurecontainerservicepoc:
+    image: azurecontainerservicepoc
+    build:
+      context: ./Azure ContainerServicePoc
+      dockerfile: Dockerfile
