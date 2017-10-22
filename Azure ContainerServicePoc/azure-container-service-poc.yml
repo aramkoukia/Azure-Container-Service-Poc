@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: azurecontainerservicepoc
-        image: azurecontainerservicepoc:dev
+        image: ACS_LOGIN_SERVER/azurecontainerservicepoc:dev
         ports:
         - containerPort: 80
         resources:
